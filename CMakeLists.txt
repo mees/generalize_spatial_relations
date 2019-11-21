@@ -26,12 +26,10 @@ find_package(OpenMP)
 
 find_package(PythonLibs REQUIRED)
 include_directories(${PYTHON_INCLUDE_DIRS})
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS} -std=c++17 -O3")
-
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS} -std=c++11 -O3")
 include_directories(EIGEN3_INCLUDE_DIR)
 
 add_executable(imitateRelationFast src/imitateRelationFast.cpp src/VoxelObjects.cpp  src/Features.cpp)
-
 target_link_libraries(imitateRelationFast ${OCTOMAP_LIBRARIES} ${PCL_LIBRARIES} ${GLOG_LIBRARIES} ${PYTHON_LIBRARIES})
 
 
