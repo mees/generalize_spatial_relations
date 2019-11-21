@@ -21,9 +21,9 @@ Install [Glog](https://github.com/google/glog), [PCL](http://pointclouds.org/), 
   ```cd scripts; ./create_uniform_pcd.sh```
 - Put your directories path [here](https://github.com/mees/generalize_spatial_relations/blob/master/src/imitateRelationFast.cpp#L96). 
 
-- Compile the c++ code:
-```
+- Compile the c++ code: ```
 mkdir build
 cd build
 cmake ..
 make -j4
+```
