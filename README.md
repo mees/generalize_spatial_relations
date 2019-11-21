@@ -1,5 +1,5 @@
 # Metric Learning for Generalizing Spatial Relations to New Objects
-This repository implements the code for describing and generalizing spatial relations of our paper published at IROS 2017. More information at our [project page](http://spatialrelations.cs.uni-freiburg.de)
+This repository implements the code for describing and generalizing spatial relations of our paper published at IROS 2017. More information at our [project page](http://spatialrelations.cs.uni-freiburg.de).
 
 ## Reference
 If you find the code helpful please consider citing our work 
@@ -19,7 +19,7 @@ The Freiburg Spatial Relations [dataset](http://spatialrelations.cs.uni-freiburg
 The dataset contains the 25 object models as textured .obj and .dae files, a low resolution .dae version for visualization in rviz, a scene description file containing the translation and rotation of the objects for each scene, a file with labels for each scene, the 15 splits used for cross validation, and a bash script to convert the models to pointclouds.
 
 <p align="center">
-  <img src="http://http://spatialrelations.cs.uni-freiburg.de/images/scene_examples.png" width="75%"/>
+  <img src="http://spatialrelations.cs.uni-freiburg.de/images/scene_examples.png" width="75%"/>
 </p>
 
 ## Installation
