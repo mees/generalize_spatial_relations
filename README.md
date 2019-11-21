@@ -44,6 +44,8 @@ To generalize relation from one or multiple scenes to another, take a look at ``
 
 If you are just interested in computing our spatial relation feature descriptor given two object clouds, take a look [here](https://github.com/mees/generalize_spatial_relations/blob/master/src/Features.cpp#L17).
 
+## Notes
+If you want to learn the features describing pairwise object relations with deep learning and optimize the generalization experiments on a continuous level check out the repo of our follow-up work [here](https://github.com/PhilJd/generalize_spatial_relations).
 
 ## License
 For academic usage, the code is released under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license. For any commercial purpose, please contact the authors. 
