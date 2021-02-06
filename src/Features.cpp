@@ -27,7 +27,7 @@ EigenVector Features::computeFeatureDescriptor(const pcl::PointCloud<pcl::PointX
   EigenVector min_dist_vect = EigenVector::Constant(totalVoxels, 0.0);
 
   AlignedVector<EigenVector3D> centered_reference_points, reference_directions, pcl1_points;
-  centered_reference_points.reserve(cloud_in_1->width * cloud_in_1->height);
+  centered_reference_points.reserve(int(cloud_in_1->width * cloud_in_1->height));
   for (pcl::PointCloud<PointXYZ>::iterator it1 = cloud_in_1->begin(); it1 != cloud_in_1->end(); it1++) {
     EigenVector3D point1(it1->x, it1->y, it1->z);
     pcl1_points.push_back(point1);

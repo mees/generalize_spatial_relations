@@ -294,5 +294,5 @@ int main(int argc, char *argv[]) {
               << " with min-policy error of " << concatenated_array[i].first << ", translation error: " << rmse
               << ", rot error " << quat_error << endl;
   }
-  delete[] poses_array;
+  delete poses_array;
 }

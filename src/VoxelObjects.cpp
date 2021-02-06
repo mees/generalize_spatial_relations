@@ -22,7 +22,9 @@ VoxelObjects::VoxelObjects(float width, float height, float depth, float resolut
   feat = new Features(resolution, color_obj1, color_obj2);
 }
 
-VoxelObjects::~VoxelObjects() {}
+VoxelObjects::~VoxelObjects() {
+  delete feat;
+}
 
 void VoxelObjects::initializeOctomapWithFreeSpace(octomap::ColorOcTree *octree) {
   // int cont=0;
