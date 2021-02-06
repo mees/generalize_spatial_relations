@@ -1,4 +1,7 @@
 # Metric Learning for Generalizing Spatial Relations to New Objects
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 This repository implements the code for describing and generalizing spatial relations of our paper published at IROS 2017. More information at our [project page](http://spatialrelations.cs.uni-freiburg.de).
 
 ## Reference
