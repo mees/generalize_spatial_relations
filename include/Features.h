@@ -2,6 +2,7 @@
 #define FEATURES_H_
 
 #include <iostream>
+#include <random>
 #include <octomap/octomap.h>
 #include <octomap/ColorOcTree.h>
 #include <pcl/io/pcd_io.h>
