@@ -1,5 +1,6 @@
 # Metric Learning for Generalizing Spatial Relations to New Objects
-
+[![Language grade: C/C++](https://img.shields.io/lgtm/grade/cpp/g/mees/generalize_spatial_relations.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mees/generalize_spatial_relations/context:cpp)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/mees/generalize_spatial_relations.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mees/generalize_spatial_relations/alerts/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 This repository implements the code for describing and generalizing spatial relations of our paper published at IROS 2017. More information at our [project page](http://spatialrelations.cs.uni-freiburg.de).
